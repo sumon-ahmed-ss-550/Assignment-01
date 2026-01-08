@@ -19,6 +19,126 @@ Shared style start
   max-width: 1360px;
   margin: 0 auto;
 }
+.btn {
+  padding: 12px 16px;
+  background-color: #469165;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-1 {
+  background-image: url("../assets/ArrowRight.png");
+  background-repeat: no-repeat;
+  background-position: 98%;
+  padding-right: 29px;
+}
+.btn-2 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 16px;
+  padding-left: 29px;
+  background: url("../assets/Play.png"), transparent;
+  background-repeat: no-repeat;
+  background-position: 2px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+}
 /*=========================================
 Shared style end
+==========================================*/
+
+/*=========================================
+Header section start
+==========================================*/
+header .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+header .navigation a {
+  text-decoration: none;
+}
+header .navigation a img {
+  width: 139px;
+  height: 60px;
+}
+header .navigation-menu {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+header .navigation-menu li {
+  list-style-type: none;
+}
+header .navigation-menu li a {
+  display: block;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+}
+/*=========================================
+Header section end
+==========================================*/
+
+/*=========================================
+Banner section start
+==========================================*/
+.banner-section {
+  padding-top: 115px;
+  padding-bottom: 235px;
+  background-image: url("../assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-section .banner {
+  text-align: center;
+}
+.banner-section .banner > button[type="button"] {
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  padding-left: 34px;
+  border: none;
+  /* background-color:; */
+  color: #469165;
+  font-size: 16px;
+  border-radius: 24px;
+  margin-bottom: 16px;
+  background-image: url("../assets/Group\ 5.png");
+  background-repeat: no-repeat;
+  background-position: 10px 9px;
+}
+.banner-section .banner h1 {
+  font-size: 65px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.banner-section .banner h1 span {
+  font-size: 65px;
+  color: #30b868;
+}
+.banner-section .banner p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.banner-section .banner .btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+/*=========================================
+Banner section end
 ==========================================*/
