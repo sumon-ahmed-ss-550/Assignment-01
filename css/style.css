@@ -28,6 +28,7 @@ Shared-style-start
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+  transition: 0.3s ease;
 }
 .btn-1 {
   background-image: url("../assets/ArrowRight.png");
@@ -50,6 +51,10 @@ Shared-style-start
   font-weight: 600;
   cursor: pointer;
   border: 1px solid #ffffff;
+  transition: 0.3s ease;
+}
+.btn-hover:hover {
+  background-color: #06421f;
 }
 /*=========================================
 Shared-style-end
@@ -118,6 +123,11 @@ Banner-section-start
   background-image: url("../assets/Group\ 5.png");
   background-repeat: no-repeat;
   background-position: 10px 9px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.banner-section .banner > button[type="button"]:hover {
+  background-color: rgb(238, 204, 211);
 }
 .banner-section .banner h1 {
   font-size: 65px;
