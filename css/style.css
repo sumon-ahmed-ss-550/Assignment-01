@@ -91,6 +91,10 @@ header .navigation-menu li a {
   color: #000000;
   text-align: left;
   font-size: 16px;
+  transition: 0.3s ease;
+}
+header .navigation-menu li a:hover {
+  color: #469165;
 }
 /*=========================================
 Header-section-end
