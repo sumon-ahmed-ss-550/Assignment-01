@@ -142,3 +142,57 @@ Banner section start
 /*=========================================
 Banner section end
 ==========================================*/
+
+/*=========================================
+Card section start
+==========================================*/
+.card-and-text {
+  padding-top: 80px;
+  background-color: #fbfbfb;
+}
+.card-and-text .text {
+  text-align: center;
+  margin-bottom: 44px;
+}
+.card-and-text .text h2 {
+  font-size: 48px;
+  color: #001931;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.card-and-text .text p {
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+}
+.card-and-text .card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.card-and-text .card-container .card {
+  padding: 70px 24px;
+  box-shadow: 0px 0px 8px #000000;
+}
+.card-and-text .card-container .card .card-body {
+  text-align: center;
+}
+.card-and-text .card-container .card .card-body img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 16px;
+}
+.card-and-text .card-container .card .card-body .card-title {
+  color: #001931;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.card-and-text .card-container .card .card-body .card-text {
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+}
+/*=========================================
+Card section end
+==========================================*/
