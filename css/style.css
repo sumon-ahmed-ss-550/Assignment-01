@@ -1,5 +1,5 @@
 /*=========================================
-Reset style start
+Reset-style-start
 ==========================================*/
 * {
   margin: 0px;
@@ -8,11 +8,11 @@ Reset style start
   box-sizing: border-box;
 }
 /*=========================================
-Reset style end
+Reset-style-end
 ==========================================*/
 
 /*=========================================
-Shared style start
+Shared-style-start
 ==========================================*/
 .container {
   width: 100%;
@@ -52,11 +52,11 @@ Shared style start
   border: 1px solid #ffffff;
 }
 /*=========================================
-Shared style end
+Shared-style-end
 ==========================================*/
 
 /*=========================================
-Header section start
+Header-section-start
 ==========================================*/
 header .navigation {
   display: flex;
@@ -88,11 +88,11 @@ header .navigation-menu li a {
   font-size: 16px;
 }
 /*=========================================
-Header section end
+Header-section-end
 ==========================================*/
 
 /*=========================================
-Banner section start
+Banner-section-start
 ==========================================*/
 .banner-section {
   padding-top: 115px;
@@ -140,11 +140,11 @@ Banner section start
   gap: 16px;
 }
 /*=========================================
-Banner section end
+Banner-section-end
 ==========================================*/
 
 /*=========================================
-Card section start
+Card-section-start
 ==========================================*/
 .card-and-text {
   padding-top: 80px;
@@ -194,5 +194,56 @@ Card section start
   line-height: 20px;
 }
 /*=========================================
-Card section end
+Card-section-end
+==========================================*/
+
+/*=========================================
+Brain-section-start
+==========================================*/
+.brain-and-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+  margin: 120px 0;
+}
+.brain-and-text img {
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
+.brain-and-text .navigation-menu h5 {
+  color: #469165;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+.brain-and-text .navigation-menu h2 {
+  color: #001931;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.brain-and-text .navigation-menu p {
+  max-width: 426px;
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+.brain-and-text .navigation-menu ul {
+  margin: 0px;
+  padding: 0px;
+}
+.brain-and-text .navigation-menu ul li {
+  background-image: url("../assets/CheckCircle.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  list-style-type: none;
+  margin-bottom: 16px;
+  padding-left: 26px;
+}
+/*=========================================
+Brain-section-end
 ==========================================*/
