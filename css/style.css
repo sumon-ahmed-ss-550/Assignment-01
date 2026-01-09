@@ -186,7 +186,9 @@ Card-section-start
 }
 .card-and-text .card-container .card {
   padding: 70px 24px;
-  box-shadow: 0px 0px 8px #000000;
+  box-shadow: 0px 0px 8px #e2dfdf;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 .card-and-text .card-container .card .card-body {
   text-align: center;
