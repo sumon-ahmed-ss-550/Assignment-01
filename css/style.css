@@ -279,3 +279,58 @@ Early-access-section-start
 /*=========================================
 Early-access-section-end
 ==========================================*/
+
+/*=========================================
+Footer-section-start
+==========================================*/
+footer {
+  background-color: #001931;
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #e5e7eb;
+}
+.footer-section .footer-image img {
+  width: 139px;
+  height: 60px;
+}
+.footer-section .footer-icon {
+  padding-right: 128px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 28px;
+}
+.footer-section .footer-icon h6 {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.footer-section .footer-icon ul {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.footer-section .footer-icon ul a {
+  text-decoration: none;
+}
+.footer-section .footer-icon ul a img {
+  width: 20px;
+  height: 20px;
+}
+footer span {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  color: #fafafa;
+  font-size: 16px;
+  line-height: 26px;
+}
+/*=========================================
+Footer-section-end
+==========================================*/
