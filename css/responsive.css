@@ -1,0 +1,45 @@
+/* responsive */
+@media only screen and (max-width: 992px) {
+  .brain-and-text {
+    flex-direction: column;
+  }
+  .brain-and-text img {
+    width: 450px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header .navigation {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card-and-text .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  header .navigation-menu {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .footer-section {
+    flex-direction: column;
+  }
+  .footer-section .footer-icon {
+    margin-top: 20px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .brain-and-text img {
+    width: 330px;
+    height: auto;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 360px) {
+  header .navigation-menu {
+    gap: 25px;
+  }
+}
